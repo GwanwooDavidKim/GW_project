@@ -5,7 +5,7 @@ from tkinter import Tk
 from tkinter.filedialog import askdirectory
 import os
 
-# 크롤링할 종목 코드와 기간 설정
+## 크롤링할 종목 코드와 기간 설정
 stock_code = input("종목 코드를 입력하세요: ")
 start_date = input("시작일을 입력하세요(예: 2023.01.01): ")
 end_date = input("종료일을 입력하세요(예: 2023.12.31): ")
